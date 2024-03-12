@@ -1,0 +1,26 @@
+{
+  "name": "@umijs/plugin-runtime-import",
+  "author": "weixiangchen520 <1981468862@qq.com>",
+  "version": "0.0.1",
+  "main": "dist/cjs/index.js",
+  "types": "dist/cjs/index.d.ts",
+  "scripts": {
+    "dev": "father dev",
+    "build": "father build"
+  },
+  "keywords": [],
+  "authors": {
+    "name": "weixiangchen520 <1981468862@qq.com>",
+    "email": "1981468862@qq.com"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.11.26",
+    "father": "^4.4.0",
+    "typescript": "^5.4.2",
+    "umi": "^4.1.2"
+  }
+}
