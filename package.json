@@ -6,7 +6,8 @@
   "types": "dist/cjs/index.d.ts",
   "scripts": {
     "dev": "father dev",
-    "build": "father build"
+    "build": "father build",
+    "start:examples": "cd examples && pnpm run start"
   },
   "keywords": [],
   "authors": {
