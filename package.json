@@ -9,6 +9,10 @@
     "build": "father build",
     "start:examples": "cd examples && pnpm run start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:weixiangchen520/umi4-plugin-runtim-import.git"
+  },
   "keywords": [],
   "authors": {
     "name": "weixiangchen520 <1981468862@qq.com>",
@@ -20,8 +24,12 @@
   ],
   "devDependencies": {
     "@types/node": "^20.11.26",
+    "@umijs/types": "^3.5.41",
     "father": "^4.4.0",
     "typescript": "^5.4.2",
     "umi": "^4.1.2"
+  },
+  "dependencies": {
+    "@umijs/utils": "^4.1.2"
   }
 }

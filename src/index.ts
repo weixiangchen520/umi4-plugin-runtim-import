@@ -52,7 +52,7 @@ export default function (api: IApi) {
     memo.plugin('RuntimeImportPlugin').use(RuntimeImportPlugin, [
       {
         assets,
-        getEntryAssets: ((type, addon) => {
+        getEntryAssets: ((type: string, addon: Record<string, any>) => {
           const set = Object.values(addon);
           if (type === 'js') {
             scripts = lodash.uniqBy(scripts.concat(getScripts(set)), (script) =>
