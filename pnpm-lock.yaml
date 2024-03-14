@@ -25,6 +25,9 @@ devDependencies:
   umi:
     specifier: ^4.1.2
     version: 4.1.2(@babel/core@7.24.0)(@types/node@20.11.26)(eslint@8.57.0)(prettier@3.2.5)(react-dom@17.0.2)(react@17.0.2)(stylelint@14.16.1)(typescript@5.4.2)(webpack@5.90.3)
+  umi-plugin-runtime-import-v4:
+    specifier: ^0.0.1
+    version: 0.0.1
 
 packages:
 
@@ -8335,6 +8338,12 @@ packages:
     resolution: {integrity: sha512-+2/g0Fds1ERlP6JsakQQDXjZdZMM+rqpamFZJEKh4kwTIn3iDkgKtby0CeNd5ATNZ4Ry1ax15TMx0W2V+miizQ==}
     engines: {node: '>=14.17'}
     hasBin: true
+    dev: true
+
+  /umi-plugin-runtime-import-v4@0.0.1:
+    resolution: {integrity: sha512-pRIRbW6H2hNT4VKg7VVEMXDe2TXF+3WQbfUPOZ7Px/Fl0DfrdBryMDb0vUGY5JaWbGDEpBVUQq4EOkMmr0Vv2g==, tarball: https://registry.npmjs.org/umi-plugin-runtime-import-v4/-/umi-plugin-runtime-import-v4-0.0.1.tgz}
+    dependencies:
+      '@umijs/utils': 4.1.2
     dev: true
 
   /umi@4.1.2(@babel/core@7.24.0)(@types/node@20.11.26)(eslint@8.57.0)(prettier@3.2.5)(react-dom@17.0.2)(react@17.0.2)(stylelint@14.16.1)(typescript@5.4.2)(webpack@5.90.3):

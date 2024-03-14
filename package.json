@@ -1,5 +1,5 @@
 {
-  "name": "@umijs/plugin-runtime-import",
+  "name": "umi-plugin-runtime-import-v4",
   "author": "weixiangchen520 <1981468862@qq.com>",
   "version": "0.0.1",
   "main": "dist/cjs/index.js",
@@ -27,7 +27,8 @@
     "@umijs/types": "^3.5.41",
     "father": "^4.4.0",
     "typescript": "^5.4.2",
-    "umi": "^4.1.2"
+    "umi": "^4.1.2",
+    "umi-plugin-runtime-import-v4": "^0.0.1"
   },
   "dependencies": {
     "@umijs/utils": "^4.1.2"
